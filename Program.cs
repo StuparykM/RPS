@@ -75,25 +75,19 @@ namespace RPS
                     case WEAPON1:
                         if (randomInt == 1)
                         {
-                            Console.WriteLine();
-                            Console.WriteLine("CPU Picks Paper");
-                            Console.WriteLine();
+                            Console.WriteLine("\nCPU Picks Paper\n");
                             Console.WriteLine("CPU Wins");
                             cpuScore++;
                         }
                         else if (randomInt == 2)
                         {
-                            Console.WriteLine();
-                            Console.WriteLine("CPU Picks Scissors");
-                            Console.WriteLine();
+                            Console.WriteLine("\nCPU Picks Scissors\n");
                             Console.WriteLine("You Win!");
                             userScore++;
                         }
                         else if (randomInt == 0)
                         {
-                            Console.WriteLine();
-                            Console.WriteLine("CPU Picks Rock");
-                            Console.WriteLine();
+                            Console.WriteLine("\nCPU Picks Rock\n");
                             Console.WriteLine("Draw!");
 
                         }
@@ -101,25 +95,19 @@ namespace RPS
                     case WEAPON2:
                         if (randomInt == 1)
                         {
-                            Console.WriteLine();
-                            Console.WriteLine("CPU Picks Paper");
-                            Console.WriteLine();
+                            Console.WriteLine("\nCPU Picks Paper\n");
                             Console.WriteLine("Draw!");
 
                         }
                         else if (randomInt == 2)
                         {
-                            Console.WriteLine();
-                            Console.WriteLine("CPU Picks Scissors");
-                            Console.WriteLine();
+                            Console.WriteLine("\nCPU Picks Scissors\n");
                             Console.WriteLine("CPU Wins");
                             cpuScore++;
                         }
                         else if (randomInt == 0)
                         {
-                            Console.WriteLine();
-                            Console.WriteLine("CPU Picks Rock");
-                            Console.WriteLine();
+                            Console.WriteLine("\nCPU Picks Rock\n");
                             Console.WriteLine("You Win!");
                             userScore++;
                         }
@@ -127,25 +115,19 @@ namespace RPS
                     case WEAPON3:
                         if (randomInt == 1)
                         {
-                            Console.WriteLine();
-                            Console.WriteLine("CPU Picks Paper");
-                            Console.WriteLine();
+                            Console.WriteLine("\nCPU Picks Paper\n");
                             Console.WriteLine("You Win");
                             userScore++;
                         }
                         else if (randomInt == 2)
                         {
-                            Console.WriteLine();
-                            Console.WriteLine("CPU Picks Scissors");
-                            Console.WriteLine();
+                            Console.WriteLine("\nCPU Picks Scissors\n");
                             Console.WriteLine("Draw!");
 
                         }
                         else if (randomInt == 0)
                         {
-                            Console.WriteLine();
-                            Console.WriteLine("CPU Picks Rock");
-                            Console.WriteLine();
+                            Console.WriteLine("\nCPU Picks Rock\n");
                             Console.WriteLine("CPU Wins");
                             cpuScore++;
                         }
