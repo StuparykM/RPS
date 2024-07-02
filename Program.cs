@@ -60,8 +60,6 @@ namespace RPS
 
                 Random rand = new Random();
                 int randomInt = rand.Next(3);
-                string cpuPick;
-
 
                 const string WEAPON1 = "Rock";
                 const string WEAPON2 = "Paper";
@@ -77,7 +75,6 @@ namespace RPS
                     case WEAPON1:
                         if (randomInt == 1)
                         {
-                            cpuPick = WEAPON2;
                             Console.WriteLine();
                             Console.WriteLine("CPU Picks Paper");
                             Console.WriteLine();
@@ -86,7 +83,6 @@ namespace RPS
                         }
                         else if (randomInt == 2)
                         {
-                            cpuPick = WEAPON3;
                             Console.WriteLine();
                             Console.WriteLine("CPU Picks Scissors");
                             Console.WriteLine();
@@ -95,7 +91,6 @@ namespace RPS
                         }
                         else if (randomInt == 0)
                         {
-                            cpuPick = WEAPON1;
                             Console.WriteLine();
                             Console.WriteLine("CPU Picks Rock");
                             Console.WriteLine();
@@ -106,7 +101,6 @@ namespace RPS
                     case WEAPON2:
                         if (randomInt == 1)
                         {
-                            cpuPick = WEAPON2;
                             Console.WriteLine();
                             Console.WriteLine("CPU Picks Paper");
                             Console.WriteLine();
@@ -115,7 +109,6 @@ namespace RPS
                         }
                         else if (randomInt == 2)
                         {
-                            cpuPick = WEAPON3;
                             Console.WriteLine();
                             Console.WriteLine("CPU Picks Scissors");
                             Console.WriteLine();
@@ -124,7 +117,6 @@ namespace RPS
                         }
                         else if (randomInt == 0)
                         {
-                            cpuPick = WEAPON1;
                             Console.WriteLine();
                             Console.WriteLine("CPU Picks Rock");
                             Console.WriteLine();
@@ -135,7 +127,6 @@ namespace RPS
                     case WEAPON3:
                         if (randomInt == 1)
                         {
-                            cpuPick = WEAPON2;
                             Console.WriteLine();
                             Console.WriteLine("CPU Picks Paper");
                             Console.WriteLine();
@@ -144,7 +135,6 @@ namespace RPS
                         }
                         else if (randomInt == 2)
                         {
-                            cpuPick = WEAPON3;
                             Console.WriteLine();
                             Console.WriteLine("CPU Picks Scissors");
                             Console.WriteLine();
@@ -153,7 +143,6 @@ namespace RPS
                         }
                         else if (randomInt == 0)
                         {
-                            cpuPick = WEAPON1;
                             Console.WriteLine();
                             Console.WriteLine("CPU Picks Rock");
                             Console.WriteLine();
